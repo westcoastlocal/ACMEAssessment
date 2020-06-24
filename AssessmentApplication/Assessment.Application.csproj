@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Assessment.Domain\Assessment.Domain.csproj" />
+    <ProjectReference Include="..\Assessment.Insfrastructure\Assessment.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
